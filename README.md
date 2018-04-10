@@ -1,6 +1,6 @@
 # Config Service
 
-This project shows example of the oss config service.
+This project shows example of the standalone config server..
 
 The "@EnableConfigServer" annotation in the main class, enables this service to be a config server. It will read all the properties from the config repo, identified by `spring.cloud.config.server.git.uri` in `application.yml` file.
 
@@ -32,7 +32,7 @@ This example relies on following config repo `https://github.com/akoranne/config
 
 2. Test locally
 	```
-	Go to - http://config-service.apps.<pcf-domain>/configserver/default
+	Go to - http://configserver.apps.<pcf-domain>/configserver/default
 	You should see the jason document.
 	```
 
