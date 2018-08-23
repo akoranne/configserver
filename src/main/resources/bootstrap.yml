@@ -3,3 +3,7 @@ debug: false
 server:
   port: ${PORT:8888}
 
+management:
+  server:
+    port: ${PORT:8889}
+    address: 127.0.0.1
