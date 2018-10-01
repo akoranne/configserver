@@ -10,12 +10,12 @@ This example relies on following config repo `https://github.com/akoranne/config
 ## Local Build & Test
 1. Build the project
 	```
-	$> ./mnvw clean package
+	$> ./mvnw clean package
 	```
 
 2. Run the project locally
 	```
-	$> ./mnvw spring-boot:run
+	$> ./mvnw spring-boot:run
 	```
 
 3. Test locally
